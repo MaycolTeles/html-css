@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte e Pré-Formatação</h2>
+    <p>
+        O comando <code>document.getElementById("test_id")</code> é escrito na linguagem JavaScript. Para deixar o texto em formato de código, basta usar &lt;code&gt;
+    </p>
+    <pre>
+        <code>
+        num = int(input("Digite um número: "))
+        if num % 2 == 0:
+            print(f"O número {num} é PAR!")
+        else:
+            print(f"O número {num} é ÍMPAR!")
+
+        print("Fim do programa")
+        </code>
+    </pre>
+    <p>O comando &lt;pre&gt; mantém a formatação da página no navegador igual à formatação do HTML (ou seja, o código em Python acima está sendo exebido da mesma maneira que foi escrito no HTML.</p>
+
+    <h2>Citações Simples</h2>
+    <p>
+        Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q>.
+        Esse comando é feito utilizando a tag &lt;q&gt; de "quote" (citar, em inglês).
+    </p>
+
+    <h2>Citações Completas</h2>
+    <blockquote cite="url_do_site">
+        A diferença entre o poste, a mulher e o bambu é que o poste dá a luz em cima e a mulher dá a luz embaixo.
+    </blockquote>
+    <p>Esse bloco de citação é feito utilizando a tag &lt;blockquote&gt;. O parâmetro "cite" é utilizado para referenciar a fonte de quem falou (o link do livro, do artigo, etc). Ferramentas buscadoras (como o Google, por exemplo, utilizam desta tag estas tags, por isso é importante colocá-las.</p>
+
+    <h2>Abreviações</h2>
+    <p>
+        Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!
+    </p>
+    <p>Para usar as abreviações, basta usar a tag &lt;abbr&gt; e, no parâmetro "title", inserir o significado da sigla.</p>
+
+    <h2>Texto Invertido</h2>
+    <p>
+        <bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo>
+    </p>
+    <p>Para deixar o texto invertido, usamos a tag &lt;bdo&gt; e configuramos o parâmetro "dir" como "rtl" (right to left, ou "da direita para a esquerda" em inglês).</p>
+
+</body>
+</html>

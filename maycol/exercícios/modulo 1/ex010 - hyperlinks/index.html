@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+
+    <p>
+        Quando o link for direcionado para um site externo, abriremos ele em uma nova guia. Caso o link seja direcionado para um site interno (nosso site) iremos abrir na mesma guia.
+    </p>
+
+    <h1>Usando links externos</h1>
+    <p>
+        Você pode acessar meu repositório público no GitHub
+        <a href="https://github.com/MaycolTeles" target="_blank" rel="external">aqui</a>.
+    </p>
+    <p>
+        Para poder controlar onde o site de destino vai abrir, podemos usar o atributo target. Basta definir 'target="_blank"' que irá abrir em uma nova guia.
+        Para indicar qual é a natureza do destino, podemos usar o atributo rel. Basta definir 'rel="external"' quando o link for para um site terceiro.
+    </p>
+
+    <h1>Usando links internos</h1>
+    <p>
+        Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página aqui</a>.
+    </p>
+    <p>
+        Ou, caso queira acessar a terceira página, clique <a href="noticias/pag003.html">aqui</a>.
+    </p>
+
+    <p>Sempre lembrar de adicionar o "rel" para as ferramentas de busca (Google)</p>
+
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="#">Baixar o livro em PDF</a></li>
+        <li><a href="#">Baixar o livro compactado (ZIP)</a></li>
+    </ul>
+
+</body>
+</html>

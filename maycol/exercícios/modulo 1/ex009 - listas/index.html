@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+
+    <h1>Trabalhando com Listas</h1>
+
+    <h2>Listas Ordenadas</h2>
+    <p>Para criar listas ordenadas, usaremos a tag &lt;ol&gt;. Essa tag significa uma lista ordenada (ordered list, em inglês). Para criar cada elemento da lista, usaremos a tag &lt;li&gt;, representando um item da lista (list item, em inglês). Caso queira criar vários "li" de uma vez, basta digitar li*numero_elementos, onde numero_elementos é o número de li's que você deseja criar (exemplo: digite "li*7" e dê enter. isso irá criar 7 "li's".</p>
+
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+
+    <p>Para alterar o tipo do índex da lista, basta adicionar o parâmetro "type" da tag &lt;ol&gt;. Esse parâmetro aceita os possíveis valores: "1", "A", "a", "I", "i".</p>
+
+    <h2>Listas Não Ordenadas</h2>
+    <p>São listas onde a sequência não importa. É apenas para listar, independente da numeração. Para criá-las, usaremos a tag &lt;ul&gt; de unordered list (lista não ordenada, em inglês).</p>
+
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Carne</li>
+    </ul>
+
+    <p>Para alterar o tipo do índex da lista, basta adicionar o parâmetro "type" da tag &lt;ul&gt;. Esse parâmetro aceita os possíveis valores: "disc", "circle" e "square".</p>
+
+    <h2>Minhas linguagens favoritas</h2>
+
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>PlayStation 1</li>
+        <ul type="square">
+            <li>Crash Bandicoot</li>
+            <li>Tom e Jerry</li>
+        </ul>
+
+        <li>Xbox 360</li>
+        <ul type="square">
+            <li>Call of Duty</li>
+            <li>Assassin's Creed </li>
+            <ul type="circle">
+                <li>Assassin's Creed - Revelations</li>
+                <li>Assasssin's Creed 3</li>
+            </ul>
+        </ul>
+
+        <li>PlayStation 5</li>
+        <ul type="square">
+            <li>Hogwarts Legacy</li>
+            <li>Spider Man</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <p>Existe também a lista de definições (definition list, em inglês). Para declará-las, usaremos a tag &lt;dl&gt;. Seus elementos são compostos por um termo (cuja tag é &lt;dt&gt; e uma descrição (cuja tag é &lt;dd&gt;).</p>
+
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+    </dl>
+
+    <p>Exemplo:</p>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dd>
+        <dd>Linguagem de programação para a criação de interatividade de um site (Frontend)</dt>
+        <dt>Python</dt>
+        <dd>Linguagem de programação para a criação do processamento da parte do servidor de um site (Backend)</dd>
+    </dl>
+
+    <p>Listas de definições são usadas por buscadores (como o Google) que dá valor para sites que tem listas de definições em seu interior.</p>
+
+</body>
+</html>
